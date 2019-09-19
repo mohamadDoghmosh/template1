@@ -1,0 +1,133 @@
+
+.navbar-brand  {
+    font-size:22px;
+	
+}
+
+.navbar-inverse .navbar-brand span {
+	    color: red;
+font-family:cursive;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+background-color: red;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+   
+    background-color: red;
+}
+.navbar-nav > li > a {
+    padding-top: 18px;
+    padding-bottom: 18px;
+	padding-left: 25px;
+		padding-right: 25px;
+
+}
+/**/
+.about {
+	padding-bottom:50px;
+	padding-top:50px;
+	
+}
+
+
+/**/
+.testimonials{
+	padding-bottom:50px;
+	padding-top:50px;
+	
+}
+.testimonials .lead{
+line-height:2em;
+font-size:17px;	
+}
+.testimonials .carousel-indicators{
+position:static;
+width:100%;
+margin-left:auto;
+padding-top:20px;
+
+	
+}
+.testimonials .carousel-indicators li{
+text-indent:0;
+width:100px;
+height:100px;
+opacity:0.6;	
+margin:5px;
+}
+
+.testimonials .carousel-indicators li.active{
+
+opacity:1;	
+}
+
+.testimonials .carousel-indicators li img{
+max-width:100%;
+border-radius:100%;
+	
+}
+/* */
+
+.price-table{
+padding-top:40px;
+padding-bottom:40px;
+background-color:#D3D3D3;	
+	
+}
+
+.price-table h1{
+padding-bottom:50px;	
+	
+}
+.price-table .price_box{
+padding:5px;	
+background-color:white;
+border:1px solid #ddd;
+margin-bottom:12px;	
+}
+
+.price-table .price_box p{
+font-size:35px;
+font-weight:bold;
+color:#666;	
+width:100px;
+height:100px;
+border-radius:50%;
+background-color:#D3D3D3;
+line-height:100px;	
+-webkit-transition-duration:0.7s;
+-moz-transition-duration:0.7s;
+-o-transition-duration:0.7s;
+transition-duration:0.7s;
+border:1px solid white;
+
+}
+.price-table .price_box:hover p{
+	
+-webkit-transform:scale(1.1,1.1) rotate(360deg);
+-moz-transform:scale(1.1,1.1) rotate(360deg);
+-o-transform:scale(1.1,1.1) rotate(360deg);
+transform:scale(1.1,1.1) rotate(360deg);
+border:2px solid #dfdfdf;
+
+
+}
+.price-table .price_box ul{
+line-height:250%;
+font-size:18px;
+}
+
+.price-table .price_box a{
+margin-bottom:10px;
+}
+
+
+
+/* */
+.our_team {
+background:url('../img/ourteam.jpg') no-repeat center center fixed;
+min-height:600px;
+
+
+}
